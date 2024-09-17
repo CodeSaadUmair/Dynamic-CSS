@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/?size=100&id=wNxEqErpHetl&format=png&color=000000"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dynamic CSS Styling Tool</title>
+  </head>
+  <body>
+    <h1>Interactive Image <span class="h2">Styler</span></h1>
+    <div class="controls">
+      <label for="spacing">Spacing: </label>
+      <input
+        type="range"
+        name="spacing"
+        min="10"
+        max="100"
+        value="10"
+        data-sizing="px"
+        class="ip"
+      />
+
+      <label for="blur">Blur: </label>
+      <input
+        type="range"
+        name="blur"
+        min="0"
+        max="20"
+        value="5"
+        data-sizing="px"
+        class="ip"
+      />
+      <br />
+      <label for="base">Base Color: </label>
+      <input type="color" name="base" value="#ff6f00" />
+
+      <label for="back">Background Color: </label>
+      <input type="color" name="back" value="#1e2a30" />
+    </div>
+    <img
+      src="https://images.unsplash.com/photo-1496588152823-86ff7695e68f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    />
+    <script src="app.js"></script>
+  </body>
+</html>
